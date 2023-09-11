@@ -17,4 +17,15 @@ header {
     padding-left: 5px;
 }
 
-/* MAIN */
+.blue {
+    color: #20a9e5;
+}
+
+.smaller {
+    font-size: x-small;
+    margin-top: 0px;
+}
+
+.bottom-margin {
+    margin-bottom: 0px;
+}
