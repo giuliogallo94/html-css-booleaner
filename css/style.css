@@ -1,0 +1,20 @@
+/* HEADER */
+header {
+    background-color: #4ea0ff ;
+}
+
+.pattern {
+    background-image: url(../img/pattern.png);
+    background-repeat: repeat;
+    background-size: contain;
+    width: auto;
+}
+
+.the-booleaner {
+    text-align: left;
+    width: 15%;
+    padding-top: 30px;
+    padding-left: 5px;
+}
+
+/* MAIN */
