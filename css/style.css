@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 /* HEADER */
 header {
     background-color: #4ea0ff ;
@@ -7,25 +11,35 @@ header {
     background-image: url(../img/pattern.png);
     background-repeat: repeat;
     background-size: contain;
-    width: auto;
+    text-align: left;
 }
 
 .the-booleaner {
-    text-align: left;
+    
     width: 15%;
     padding-top: 30px;
     padding-left: 5px;
 }
 
+/* MAIN */
+
+.main-title {
+    font-size: xx-large;
+}
 .blue {
     color: #20a9e5;
 }
 
 .smaller {
     font-size: x-small;
-    margin-top: 0px;
+}
+
+.top-margin {
+    margin-top: 0;
 }
 
 .bottom-margin {
     margin-bottom: 0px;
 }
+
+
