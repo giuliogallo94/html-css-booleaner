@@ -22,6 +22,8 @@ header {
 }
 
 /* MAIN */
+
+/* TITLE */
 h1 {
     margin-bottom: 0px;
 }
@@ -52,12 +54,22 @@ main{
     margin-bottom: 0px;
 }
 
+/* GALLERY */
 .photo-description {
     font-size: xx-small;
     margin-top: 0;
     margin-bottom: 0;
 }
 
+/* .gallery-1 {
+    width: 47%;
+}
+
+.gallery-2 {
+    width: 40%;
+} */
+
+/* PARAGRAPH */
 .yellow-bg {
     background-color: yellow;
 }
@@ -96,6 +108,7 @@ table {
     width: 50%;
 }  
 
+/* ADS */
 .ads {
     margin-top: 25px;
     font-weight: bold;
