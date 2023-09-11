@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    width: 1000px;
 }
 
 /* HEADER */
@@ -52,3 +53,10 @@ main{
     margin-bottom: 0;
 }
 
+.yellow-bg {
+    background-color: yellow;
+}
+
+.list {
+    margin-top: 25px;
+}
