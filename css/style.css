@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    width: 1000px;
 }
 
 /* HEADER */
@@ -60,3 +59,33 @@ main{
 .list {
     margin-top: 25px;
 }
+
+/* TABLE */
+table {
+    text-align: left;
+    border-collapse: collapse;
+    font-size: small;
+    margin-top: 25px;
+}
+
+.white-text {
+    color: white;
+    background-color: #20a9e5;
+}
+
+
+.lightblue-bg {
+    background-color: #b1e5f2;
+}
+
+.column-one {
+    width: 25%;
+}
+
+.column-two {
+    width: 25%;
+}
+
+.column-three {
+    width: 50%;
+}  
