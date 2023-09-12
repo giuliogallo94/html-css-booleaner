@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    width: 1100px;
 }
 
 /* HEADER */
@@ -8,25 +7,22 @@ body {
 
 header {
     background-color: #4ea0ff ;
-    height: 100px;
-}
-
-
-.pattern {
     background-image: url(../img/pattern.png);
-    background-repeat: repeat;
     background-size: 38%;
-    text-align: left;
-    height: 100%;
-}
-
-.the-booleaner {
-    width: 20%;
     padding-top: 40px;
     padding-left: 5px;
 }
 
+.the-booleaner {
+    width: 20%;    
+}
+
 /* MAIN */
+main {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 25px;
+}
 
 /* TITLE */
 h1 {
@@ -35,34 +31,21 @@ h1 {
     margin-bottom: 0px;
 }
 
-/* p {
-    font-size: small;
-} */
+.undertitle {
+    font-size:larger;
+    margin-top: 0;
+    margin-bottom: 0px;
+    color: grey;
+}
 
-main{
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-bottom: 25px;
+.date {
+    font-size: small;
+    margin-top: 0;
+    color: grey;
 }
 
 .blue {
     color: #20a9e5;
-}
-
-.larger {
-    font-size:larger;
-}
-
-.small {
-    font-size: small;
-}
-
-.top-margin {
-    margin-top: 0;
-}
-
-.bottom-margin {
-    margin-bottom: 0px;
 }
 
 /* GALLERY */
@@ -85,11 +68,10 @@ main{
 table {
     text-align: left;
     border-collapse: collapse;
-    /* font-size: small; */
     margin-top: 25px;
 }
 
-.white-text {
+thead {
     color: white;
     background-color: #20a9e5;
 }
@@ -98,19 +80,20 @@ table {
     background-color: #b1e5f2;
 }
 
-.column-one {
+.column-25{
     width: 25%;
 }
 
-.column-two {
-    width: 25%;
-}
-
-.column-three {
+.column-50 {
     width: 50%;
 }
 
 /* ADS */
+h4 {
+    color: grey;
+    margin-bottom: 0;
+}
+
 .ads {
     margin-top: 25px;
     font-weight: bold;
@@ -135,9 +118,4 @@ table {
     padding-top:10px;
     font-size: larger;
 
-}
-
-.grey {
-    color: grey;
-    margin-bottom: 0px;
 }
